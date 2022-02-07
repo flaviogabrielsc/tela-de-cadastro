@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <form>
     <div  class="main-login">
         <div class="left-login">
             <h1></h1>
@@ -17,22 +18,26 @@
                 <h1>LOGIN</h1>
                 <div class="textfield">
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário">
+                    <input type="text" name="usuario" id="Usuário" required>
                 </div>
                 <div class="textfield">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="password" name="senha" id="Senha" required>
                 </div>
-                <button class="btn-login">Login</button>
+                <button type="submit">Login</button>
+                
+                
+                
                 
                 <a href="" class="link-estilo">Esqueceu a senha?</a>
                 <hr width = 75%>
                 <p>
-                    <a href="" class="link-estilo">Criar conta</a>
+                    <a href="" class="link-estilo">Criar nova conta</a>
                 </p>
             </div>
-            
+        
     </div>
+</form>
 </div>           
 </body>
 </html>
